@@ -1,0 +1,135 @@
+.bordertop{
+  width: 100vw;
+  height: 40px;
+  left: 0;
+  background: #FFFFFF;
+  position: fixed;
+  top:0;
+}
+
+
+.borderbtm{
+  width: 100vw;
+  height: 40px;
+  left: 0;
+  background: #FFFFFF;
+  position: fixed;
+  bottom:0;
+}
+
+
+.header{
+  margin-left: 50px;
+  margin-right: 50px;
+  background: #EEEEEE;
+}
+
+
+#section{
+  margin-left: 50px;
+  margin-right: 50px;
+  background: #EEEEEE;
+}
+
+.footer{
+  margin-left: 50px;
+  margin-right: 50px;
+  background: #EEEEEE;
+}
+
+
+.landing{
+  width: 100%;
+  margin-top: 40px;
+  
+}
+
+
+
+.menu{
+  position: fixed;
+  right: 20px;
+  top: 0;
+  height: 100vh;
+  writing-mode: tb-rl;
+  font-size: 0.7em;
+  letter-spacing: 5px;
+  float: right;
+  text-align: center;
+}
+
+
+
+
+.menuitem{
+  margin:40px 0;
+}
+
+
+
+
+
+.logo{
+  width: 15%;
+  position: absolute;
+  right: 30%;
+  top:30%;
+  opacity: .9;
+  
+}
+
+
+
+
+
+.wifi{
+  width:10vw;
+  height: 10vw;
+  
+}
+
+
+.infocontent{
+  
+  background: #EEEEEE;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction:column;
+}
+
+.footer{
+  margin-bottom: 30px;
+}
+
+
+
+
+
+.followcontent{
+  margin-left: 30px;
+  height: 13vw;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.wifiwording{
+  width: 40%;
+  font-family: 'Amatica SC';
+  font-size: 3em;
+  display: flex;
+  
+}
+
+.infoitem{
+
+  margin: 30px 50px;
+   justify-content:center;
+  display: flex;
+   flex-direction: row;
+  align-items:center;
+  border-bottom: 1px solid #D2D2D2;
+}
+
+
