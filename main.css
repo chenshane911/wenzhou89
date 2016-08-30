@@ -72,6 +72,22 @@
 }
 
 
+.l1:hover{
+	
+	background-color: #FFFFFF;
+	border: solid 2px #DBDBDB;
+	position: absolute;
+	position: fixed;
+	right: 30px;
+	top:30px;
+	text-decoration: none;
+	display: flex;
+	text-align: center;
+	transition: all 0.4s ease ;
+}
+
+
+
 
 .l2{
 	
@@ -91,6 +107,28 @@
 	
 }
 
+
+
+
+.l2:hover{
+	
+	background-color: #FFFFFF;
+	border-left:solid 3px #F03C3C;
+	border-top: solid 2px #DBDBDB;
+	border-right: solid 2px #DBDBDB;
+	border-bottom: solid 2px #DBDBDB;
+	
+	position: absolute;
+	position: fixed;
+	right: 30px;
+	top:75px;
+	margin-top: 1px;
+	text-decoration: none;
+	display: flex;
+	transition: all 0.4s ease ;
+	
+}
+
 .l3{
 	
 	background-color: #151515;
@@ -104,9 +142,38 @@
 	
 }
 
+
+.l3:hover{
+	
+	background-color: #248473;
+	position: absolute;
+	position: fixed;
+	right: 30px;
+	top:122px;
+	margin-top: 1px;
+	text-decoration: none;
+	display: flex;
+	transition: all 0.4s ease ;
+	
+}
+
 .l4{
 	
 	background-color: #151515;
+	position: absolute;
+	position: fixed;
+	right: 30px;
+	top:164px;
+	margin-top: 1px;
+	text-decoration: none;
+	display: flex;
+	
+}
+
+
+.l4:hover{
+	
+	background-color: #D84B49;
 	position: absolute;
 	position: fixed;
 	right: 30px;
@@ -130,6 +197,19 @@
 }
 
 
+
+.l1w:hover{
+	font-family: 'Scope One', serif;
+	font-size: .8em;
+	letter-spacing: 1.4px;
+	color: black;
+	padding:13px 60px 13px 70px;
+	text-align: center;
+	transition: all 0.4s ease ;
+	
+}
+
+
 .l2w{
 	font-family: 'Scope One', serif;
 	font-size: .8em;
@@ -137,6 +217,17 @@
 	color: black;
 	padding:13px 60px 13px 20px;
 	text-align: center;
+	
+}
+
+.l2w:hover{
+	font-family: 'Scope One', serif;
+	font-size: .8em;
+	letter-spacing: 1.4px;
+	color: black;
+	padding:13px 60px 13px 90px;
+	text-align: center;
+	transition: all 0.4s ease ;
 	
 }
 
@@ -151,6 +242,19 @@
 	
 }
 
+.l3w:hover{
+	font-family: 'Scope One', serif;
+	font-size: .8em;
+	letter-spacing: 1.4px;
+	color: #F9F9F9;
+	padding:13px 60px 13px 100px;
+	text-align: center;
+	transition: all 0.4s ease ;
+	
+}
+
+
+
 
 .l4w{
 	font-family: 'Scope One', serif;
@@ -162,6 +266,15 @@
 	
 }
 
+.l4w:hover{
+	font-family: 'Scope One', serif;
+	font-size: .8em;
+	letter-spacing: 1.4px;
+	color: #F9F9F9;
+	padding:13px 60px 63px 180px;
+	text-align: right;
+	transition: all 0.5s ease ;
+}
 
 
 
@@ -182,7 +295,7 @@
 	position: absolute;
 	bottom: 0;
 	text-align: left;
-	left: 46%;
+	left: 40%;
 	bottom: 22%;
 	text-align: center;
 }
@@ -433,6 +546,7 @@ th, td {
 	position: relative;
 	padding: 30px;
 	float: right;
+	z-index: 2;
 	
 }
 
@@ -441,18 +555,132 @@ th, td {
 	background: #DAE7DE;
 	position: absolute;
 	top:500%;
-	width: 100vw;
+	width: 100%;
 	height: 300px;
 }
 
 
 .end{
-	background: #313131;
-	width: 100vw;
+	background: #181818;
+	width: 100%;
 	height: 300px;
 	position: absolute;
 	top:540%;
 }
 
 
+.sym02{
+	width: 160px;
+	position: absolute;
+	top:210%;
+	right: 25%;
+	z-index: 2;
+}
 
+
+
+.sym03{
+	width: 160px;
+	position: absolute;
+	top:270%;
+	right: 25%;
+	z-index: 2;
+}
+
+
+
+
+.topm{
+	width: 200px;
+	z-index: 2;
+	position: absolute;
+	bottom: 43%;
+	left: 42%;
+}
+
+
+
+.topm:hover{
+	width: 201px;
+	z-index: 2;
+	position: absolute;
+	bottom: 47%;
+	left: 42%;
+	transition: all 0.4s ease;
+}
+
+
+
+p.totop  {
+	cursor: pointer;
+} 
+
+
+
+
+.svg-wrapper {
+	position: absolute;
+	top:36.5%;
+	left: 30%;
+	height: 60px;
+  
+  transform: translateY(-50%);
+  width: 320px;
+	z-index: 2;
+	text-align: center;
+}
+
+.svg-wrapper:hover {
+	position: absolute;
+	top:36.5%;
+	left: 30%;
+	height: 60px;
+  
+  transform: translateY(-50%);
+  width: 320px;
+	z-index: 2;
+	text-align: center;
+	cursor: pointer;
+	opacity: .6;
+	transition: all 0.4sec;
+}
+
+.shape {
+  fill: transparent;
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 5px;
+  stroke: #353435;
+}
+
+.text {
+  color: #353435;
+  font-family: 'Scope One', serif;
+  font-size: 1em;
+  letter-spacing: 1.3px;
+  line-height: 32px;
+  position: relative;
+  top: -48px;
+	
+}
+
+
+
+
+@keyframes draw {
+  0% {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -400;
+    stroke-width: 6px;
+  }
+  100% {
+    stroke-dasharray: 760;
+    stroke-dashoffset: 0;
+    stroke-width: 1px;
+  }
+}
+
+.svg-wrapper:hover .shape {
+  -webkit-animation: 0.5s draw linear forwards;
+  animation: 0.5s draw linear forwards;
+}
