@@ -42,8 +42,15 @@ $(document).ready(function(){
      {
       $('.part6').fadeIn();
      }
+	if ($(this).scrollTop()>1100)
+     {
+        $('.sym02').fadeIn();
+     }
+    else
+     {
+      $('.sym02').fadeOut();
+     }
  });
-	
 	
 	
 	
