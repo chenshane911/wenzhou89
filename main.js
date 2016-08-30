@@ -33,6 +33,20 @@ $(document).ready(function(){
 	
 	
 		
+	$(window).scroll(function() {
+    if ($(this).scrollTop()>0)
+     {
+        $('.part6').fadeOut();
+     }
+    else
+     {
+      $('.part6').fadeIn();
+     }
+ });
+	
+	
+	
+	
 });
 
 
