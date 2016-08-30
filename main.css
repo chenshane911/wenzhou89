@@ -126,6 +126,7 @@
 	text-decoration: none;
 	display: flex;
 	transition: all 0.4s ease ;
+	cursor: pointer;
 	
 }
 
@@ -294,10 +295,9 @@
 
 .footer{
 	position: absolute;
-	bottom: 0;
+	top:420%;
 	text-align: left;
-	left: 40%;
-	bottom: 22%;
+	width: 100%;
 	text-align: center;
 }
 
@@ -307,6 +307,7 @@
 	letter-spacing: 1.4px;
 	color: #797979;
 	padding: 10px;
+	bottom: -10px;
 }
 
 
@@ -475,9 +476,8 @@ th, td {
 .life{
 	position:absolute;
 	top:400%;
-	left: 10%;
 	height: 70px;
-	width: 76VW;
+	width: 40%;
 	background-color: #202020;
 	text-align: center;
 }
@@ -522,7 +522,7 @@ th, td {
 
 .part5square{
 	position:absolute;
-	top:440%;
+	top:400%;
 	left: 34%;
 	height: 200px;
 	width:500px;
@@ -548,6 +548,7 @@ th, td {
 	padding: 30px;
 	float: right;
 	z-index: 2;
+	fill: #F9F9F9;
 	
 }
 
@@ -555,7 +556,7 @@ th, td {
 .part6{
 	background: #DAE7DE;
 	position: absolute;
-	top:500%;
+	bottom: 0px;
 	width: 100%;
 	height: 300px;
 }
@@ -595,7 +596,7 @@ th, td {
 	width: 200px;
 	z-index: 2;
 	position: absolute;
-	bottom: 43%;
+	bottom: -170px;
 	left: 42%;
 }
 
@@ -605,7 +606,7 @@ th, td {
 	width: 201px;
 	z-index: 2;
 	position: absolute;
-	bottom: 47%;
+	bottom: -140px;
 	left: 42%;
 	transition: all 0.4s ease;
 }
@@ -683,7 +684,5 @@ p.totop  {
   -webkit-animation: 0.5s draw linear forwards;
   animation: 0.5s draw linear forwards;
 }
-
-
 
 
