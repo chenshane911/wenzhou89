@@ -14,10 +14,10 @@ $(document).ready(function(){
 	
 	
 		
-	$('#scroll a').click(function (e) {
+	$('.svg-wrapper').click(function (e) {
           console.log('onclick'); console.log('AAA')
           e.preventDefault();
-          $('body').animate({ scrollTop: "300px" });
+          $('body').animate({ scrollTop: "400px" });
 
       }, 400);
 		
