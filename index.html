@@ -3,13 +3,14 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="main.css">
+	  <link rel="stylesheet" type="text/css" href="gallery.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
-    <script  src="main.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Varela" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Amatica+SC" rel="stylesheet">
 	<link rel="shortcut icon" href="./img/fav.png" type="image/x-icon">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Scope+One" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=Scope+One" rel="stylesheet">
+	 <script src="gallery.js"></script>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
   	<script src="main.js"></script>
   </head>
@@ -29,7 +30,7 @@
 		
 		
 		<div class="links" >
-		<a class="l1" href="https://www.facebook.com/shane.chen.xuan" ><span class="l1w">call to update</span></a>
+		<a class="l1" href="https://www.facebook.com/shane.chen.xuan" ><span class="l1w">please update</span></a>
 		<a class="l2" href="https://www.facebook.com/shane.chen.xuan" ><span class="l2w">some house info</span></a>
 		<a class="l3" href="https://www.facebook.com/spacesofcapital9thfloor" ><span class="l3w">9 Floor Apt.</span></a>
 		<a class="l4" href="https://www.fineighbor.com/" ><span class="l4w">Fineighbor</span></a>
@@ -111,7 +112,31 @@
 			<span class="photo">photooooos</span>
 			<span class="blog">blogggggg</span>
 	  		</div>
-		  
+		  	
+
+<div class="m-p-g">
+	<div class="m-p-g__thumbs" data-google-image-layout data-max-height="350">
+		<img src="http://unsplash.it/640/450?image=906" data-full="http://unsplash.it/640/450?image=906" class="m-p-g__thumbs-img" />
+		<img src="http://unsplash.it/640/450?image=906" data-full="http://unsplash.it/1280/900?image=906" class="m-p-g__thumbs-img" />
+		<img src="http://unsplash.it/550/420?image=885" data-full="http://unsplash.it/1100/840?image=885" class="m-p-g__thumbs-img" />
+		<img src="http://unsplash.it/650/450?image=823" data-full="http://unsplash.it/1300/900?image=823" class="m-p-g__thumbs-img" />
+		<img src="http://unsplash.it/600/350?image=815" data-full="http://unsplash.it/1200/700?image=815" class="m-p-g__thumbs-img" />
+		<img src="http://unsplash.it/560/500?image=677" data-full="http://unsplash.it/1120/1000?image=677" class="m-p-g__thumbs-img" />
+		<img src="http://unsplash.it/670/410?image=401" data-full="http://unsplash.it/1340/820?image=401" class="m-p-g__thumbs-img" />
+		<img src="http://unsplash.it/620/340?image=623" data-full="http://unsplash.it/1240/680?image=623" class="m-p-g__thumbs-img" />
+		<img src="http://unsplash.it/790/390?image=339" data-full="http://unsplash.it/1580/780?image=339" class="m-p-g__thumbs-img" />
+	</div>
+
+	<div class="m-p-g__fullscreen"></div>
+</div>
+
+<script>
+	var elem = document.querySelector('.m-p-g');
+
+	document.addEventListener('DOMContentLoaded', function() {
+		var gallery = new MaterialPhotoGallery(elem);
+	});
+</script>
 
 
 	  	</section>
