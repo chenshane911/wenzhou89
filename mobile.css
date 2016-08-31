@@ -1,0 +1,47 @@
+@media all and (max-width: 480px) {
+	
+	
+	
+.T1,.T2,.T3{
+opacity: 0;
+		
+}
+	
+	
+	
+.symbol,.symbol2,.sym02,.sym03,.links,.svg-wrapper,.cp{
+		opacity: 0;
+}	
+	
+	
+.house1{
+
+	left: 13px;
+	
+}	
+	
+	
+.house1content{
+		width: 90%;
+}
+	
+	
+.table {
+    border-collapse: collapse;
+	font-family: 'Scope One', serif;
+	font-size: .4em;
+	letter-spacing: 1.4px;
+	color: #616161;
+	position: absolute;
+	left:0px;
+	top:60%;
+}
+
+	
+.part1{
+		left: 0;
+	}
+	
+	
+	
+}
