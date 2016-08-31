@@ -17,8 +17,9 @@ opacity: 0;
 .house1{
 
 	left: 13px;
-	
+	width: 100%;
 }	
+	
 	
 	
 .house1content{
@@ -33,15 +34,67 @@ opacity: 0;
 	letter-spacing: 1.4px;
 	color: #616161;
 	position: absolute;
-	left:0px;
+	left:14px;
 	top:60%;
 }
 
 	
 .part1{
-		left: 0;
+		left: 4px;
+	}
+	
+	
+
+	
+	.table,.ppl{
+		position: absolute;
+		left: 14px;
+		top:70%;
+	}	
+	
+	.ppl{
+		font-size: 1em;
+		margin-bottom: 40px;
+		position: absolute;
+		top:60%;
 	}
 	
 	
 	
+	.title2{
+		opacity: 0;
+	}
+	
+	
+	.story{
+		position: absolute;
+		left: 14px;
+		width: 100%;
+		top:140%;
+	}
+	
+	
+	.part5square{
+	position:absolute;
+	top:380%;
+	left: 0px;
+	height: 200px;
+	width:500px;
+	background-color: white;
+	margin-top: 80px;
+	z-index: 3;
+}
+	
+	
+	
+	
+.eat{
+	position:absolute;
+	top:-85%;
+	left: 27%;
+	width:28%;
+	margin-top: 20px;
+	transform:rotate(3deg);
+}
+
 }
