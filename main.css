@@ -726,3 +726,15 @@ p.totop  {
 	height: 30px;
 	z-index: 4;
 }
+
+
+
+
+.fb-like{
+	z-index: 10;
+	position: absolute;
+	position: fixed;
+	right: 23px;
+	bottom: 23px;
+	
+}
