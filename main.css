@@ -144,19 +144,6 @@
 }
 
 
-.l3:hover{
-	
-	background-color: #248473;
-	position: absolute;
-	position: fixed;
-	right: 30px;
-	top:122px;
-	margin-top: 1px;
-	text-decoration: none;
-	display: flex;
-	transition: all 0.4s ease ;
-	
-}
 
 .l4{
 	
@@ -172,18 +159,6 @@
 }
 
 
-.l4:hover{
-	
-	background-color: #D84B49;
-	position: absolute;
-	position: fixed;
-	right: 30px;
-	top:164px;
-	margin-top: 1px;
-	text-decoration: none;
-	display: flex;
-	
-}
 
 
 
