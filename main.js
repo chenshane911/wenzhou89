@@ -50,6 +50,16 @@ $(document).ready(function(){
      {
       $('.sym02').fadeOut();
      }
+		
+		
+		if ($(this).scrollTop()>0)
+     {
+        $('.totop').fadeIn();
+     }
+    else
+     {
+      $('.totop').fadeOut();
+     }
  });
 	
 	
