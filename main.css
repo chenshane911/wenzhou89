@@ -537,7 +537,8 @@ th, td {
 	background: #DAE7DE;
 	position: absolute;
 	bottom: 0px;
-	width: 100vw;
+	left:0;
+	right:0;
 	height: 300px;
 }
 
